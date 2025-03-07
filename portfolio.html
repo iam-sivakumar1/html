@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Siva</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        h1, h2, h3 {
+            color: #00aaff;
+        }
+        .about, .skills, .projects, .contact {
+            margin-top: 40px;
+        }
+        .skills div, .projects div {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            background: #16213e;
+            border-radius: 10px;
+            width: 250px;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #0f3460;
+        }
+    </style>
+</head> 
+<body>
+    <header>
+        <h1>Siva Kumar</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="images/profile.jpg" alt="Siva Kumar" class="profile-img">
+        <h2>Hello, I’m Siva Kumar,</h2> 
+        <h3>Full Stack Developer</h3>
+        <p><a href="#contact" style="color: #00aaff; text-decoration: underline;">Contact Me</a></p>
+    </div>
+    <div id="about" class="about">
+        <h3>About</h3>
+        <p>Aspiring software developer with a passion for coding, problem-solving, and building scalable applications.</p>
+    </div>
+    <div id="skills" class="skills">
+        <h3>Skills</h3>
+        <div>
+            <h4>Front-End</h4>
+            <p>React, JavaScript, Tailwind CSS</p>
+        </div>
+        <div>
+            <h4>Back-End</h4>
+            <p>Node.js, Express, MongoDB</p>
+        </div>
+    </div>
+    <div id="projects" class="projects">
+        <h3>Projects</h3>
+        <div>
+            <h4>Task Manager</h4>
+            <p>A React-based task management app for tracking daily tasks.</p>
+        </div>
+        <div>
+            <h4>Portfolio Website</h4>
+            <p>A personal portfolio website showcasing my skills and projects.</p>
+        </div>
+    </div>
+    <footer id="contact" class="contact">
+        <p>Connect with me on <a href="https://github.com" style="color: #00aaff; text-decoration: underline;">GitHub</a></p>
+    </footer>
+</body>
+</html>
